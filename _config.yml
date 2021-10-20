@@ -7,6 +7,7 @@ baseurl:     "/pixyll"
 url:         "https://cmnord.github.io/"
 date_format: "%b %-d, %Y"
 header_pages:
+ - classes.md
 
 # Google services
 google_verification:
@@ -109,6 +110,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jemoji
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile
