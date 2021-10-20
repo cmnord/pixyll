@@ -8,6 +8,7 @@ url:         "https://cmnord.github.io/"
 date_format: "%b %-d, %Y"
 header_pages:
  - classes.md
+ - research.md
 
 # Google services
 google_verification:
