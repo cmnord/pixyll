@@ -7,8 +7,9 @@ baseurl:     "/pixyll"
 url:         "https://cmnord.github.io/"
 date_format: "%b %-d, %Y"
 header_pages:
- - classes.md
+ - blog/index.html
  - research.md
+ - classes.md
 
 # Google services
 google_verification:
@@ -106,6 +107,7 @@ redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
 paginate:     4
+paginate_path: "/blog/page:num"
 sass:
   style: compressed
 plugins:
