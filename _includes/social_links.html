@@ -12,7 +12,9 @@
     {% if site.stackoverflow_id %}
       <a class="fa fa-stack-overflow" href="https://stackoverflow.com/users/{{ site.stackoverflow_id }}"></a>
     {% endif %}
+    {% if site.show_rss_feed %}
     <a class="fa fa-rss" href="{{ "/feed.xml" | relative_url }}"></a>
+    {% endif %}
     {% if site.twitter_username %}
       <a class="fa fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"></a>
     {% endif %}
@@ -42,6 +44,12 @@
     {% endif %}
     {% if site.vk_id %}
       <a class="fa fa-vk" href="https://vk.com/{{ site.vk_id }}"></a>
+    {% endif %}
+    {% if site.goodreads_id %}
+      <a class="fa fa-book" href="https://www.goodreads.com/user/show/{{ site.goodreads_id }}"></a>
+    {% endif %}
+    {% if site.podyssey_username %}
+      <a class="fa fa-podcast" href="https://podyssey.fm/{{ site.podyssey_username }}"></a>
     {% endif %}
   </div>
   <div class="right">
